@@ -1,8 +1,8 @@
-export default function Materi () {
+export default function Materi1 () {
     return (
         <div className="ml-7 mt-7">
             <button className="p-1 pl-2 pr-2 border-solid border-2 rounded-full bg-white border-black">
-              Sekolah Menengah Pertama   (SMP) kelas 9
+            Sistem Persamaan Linear Dua Variabel
             </button>
         </div>
     )
