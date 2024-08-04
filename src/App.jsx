@@ -1,28 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Beranda from './pages/Beranda'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Kuis from './pages/Kuis';
 import Navbar from './component/Navbar';
-import Materi from './pages/Materi';
 import LatihanSoal from './pages/LatihanSoal';
 import Referensi from './pages/Referensi';
 import Bantuan from './pages/Bantuan';
 import ForumDiskusi from './pages/ForumDiskusi';
 import Background from '../src/image/background.png';
-import TujuanPembelajaran from './pages/TujuanPembelajaran';
-import TujuanPembelajaran1 from './pages/TujuanPembelajaran1';
-import Indikator from './pages/Indikator';
-import Indikator1 from './pages/Indikator1';
-import Kompetensi from './pages/Kompetensi';
-import Kompetensi1 from './pages/Kompetensi1';
-import Materi1 from './pages/Materi1';
-import Materi2 from './pages/Materi2';
-import Materi3 from './pages/Materi3';
-import Materi4 from './pages/Materi4';
+import Indikator from './pages/IndikatorPencapaianKompetensi/Indikator';
+import Indikator1 from './pages/IndikatorPencapaianKompetensi/Indikator1';
+import Kompetensi1 from './pages/KompetensiDasar/Kompetensi1';
 import Materi5 from './pages/Materi5';
 import Materi6 from './pages/Materi6';
 import Materi7 from './pages/Materi7';
@@ -30,7 +21,23 @@ import Materi8 from './pages/Materi8';
 import Materi9 from './pages/Materi9';
 import Latihansoal1 from './pages/Latihansoal1';
 import Kuis2 from './pages/Kuis2';
-import InputLatihan from './pages/admin/Inputlatihan';
+import InputEssay from './pages/InputEssay/InputEssay';
+import InputPG from './pages/InputPG/InputPG';
+import InputKuis from './pages/InputKuis/InputKuis';
+import InputMateri from './pages/InputMateri/InputMateri';
+import Beranda from './pages/Main/Beranda';
+import Kompetensi from './pages/KompetensiDasar/Kompetensi';
+import KompetensiInti from './pages/KompetensiInti/KompetensiInti';
+import KompetensiInti1 from './pages/KompetensiInti/KompetensiInti1';
+import Kompetensi11 from './pages/KompetensiDasar/Kompetensi1,5';
+import Indikator11 from './pages/IndikatorPencapaianKompetensi/Indikator1,5';
+import KompetensiInti11 from './pages/KompetensiInti/KompetensiInti1,5';
+import Materi from './pages/Materi/Materi';
+import Materi11 from './pages/Materi/Materi1,5';
+import Materi1 from './pages/Materi/Materi1';
+import Materi2 from './pages/Materi/Materi2';
+import Materi3 from './pages/Materi/Materi3';
+import Materi4 from './pages/Materi/Materi4';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -57,48 +64,68 @@ function App() {
       element: <LatihanSoal />,
     },
     {
-      path: "/materi",
+      path: "/pages/materi/materi",
       element: <Materi />,
+    },
+    {
+      path: "/pages/materi/materi11",
+      element: <Materi11 />,
+    },
+    {
+      path: "/materi",
+      element: <Materi1 />,
+    },
+    {
+      path: "/pages/materi/materi2",
+      element: <Materi2 />,
+    },
+    {
+      path: "/pages/materi/materi3",
+      element: <Materi3 />,
+    },
+    {
+      path: "/pages/materi/materi4",
+      element: <Materi4 />,
     },
     {
       path: "/beranda",
       element: <Beranda />,
     },
     {
-      path: "/tujuanpembelajaran",
-      element: <TujuanPembelajaran />,
+      path: "/pages/kompetensiinti/ki1",
+      element: <KompetensiInti />,
     },
     {
-      path: "/tujuanpembelajaran1",
-      element: <TujuanPembelajaran1 />,
+      path: "/pages/kompetensiinti/ki1,5",
+      element: <KompetensiInti11 />,
     },
     {
-      path: "/indikator",
+      path: "/pages/kompetensiinti/ki2",
+      element: <KompetensiInti1 />,
+    },
+    {
+      path: "/pages/indikatorpencapaiankompetensi/ipk1",
       element: <Indikator />,
     },
     {
-      path: "/indikator1",
+      path: "/pages/indikatorpencapaiankompetensi/ipk1,5",
+      element: <Indikator11 />,
+    },
+    {
+      path: "/pages/indikatorpencapaiankompetensi/ipk2",
       element: <Indikator1 />,
     },
     {
-      path: "/kompetensi",
+      path: "/pages/kompetensidasar/kd1",
       element: <Kompetensi />,
     },
     {
-      path: "/kompetensi1",
+      path: "/pages/kompetensidasar/kd1,5",
+      element: <Kompetensi11 />,
+    },
+    {
+      path: "/pages/kompetensidasar/kd2",
       element: <Kompetensi1 />,
-    },
-    {
-      path: "/materi1",
-      element: <Materi1 />,
-    },
-    {
-      path: "/materi2",
-      element: <Materi2 />,
-    },
-    {
-      path: "/materi3",
-      element: <Materi3 />,
     },
     {
       path: "/materi4",
@@ -137,19 +164,31 @@ function App() {
       element: <Kuis2 />,
     },
     {
-      path: "/admin/input-latihan",
-      element: <InputLatihan />,
+      path: "/pages/inputEssay/input-essay",
+      element: <InputEssay />,
+    },
+    {
+      path: "/pages/inputPg/input-pg",
+      element: <InputPG />,
+    },
+    {
+      path: "/pages/inputKuis/input-kuis",
+      element: <InputKuis />,
+    },
+    {
+      path: "/pages/inputMateri/input-materi",
+      element: <InputMateri />,
     },
   ]);
 
   return (
-    <div style={{backgroundImage:`url(${Background})`, backgroundSize:'cover', backgroundPosition:'center'}} className='h-screen w-screen relative overflow-y-auto'>
-    <Navbar/>
-    <RouterProvider
-    router={router}
-  />
-  </div>
-  ) 
+    <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
+      <Navbar />
+      <RouterProvider
+        router={router}
+      />
+    </div>
+  )
 }
 
 export default App

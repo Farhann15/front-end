@@ -111,9 +111,9 @@ export default function Navbar() {
             <img src={Home} alt="" className='w-6 h-6'/>
           </div>
           {navigation.map((item) => (
-            <a 
+            <Link
               key={item.name}
-              href={item.href}
+              to={item.href}
               className={classNames(
                 item.current ? 'bg-blue-500 text-white' : 'text-black hover:bg-blue-300 hover:text-black',
                 'rounded-xl px-4 py-1 text-sm font-medium border border-black my-1',
@@ -121,7 +121,7 @@ export default function Navbar() {
               aria-current={item.current ? 'page' : undefined}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

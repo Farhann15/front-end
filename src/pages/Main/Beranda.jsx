@@ -11,23 +11,23 @@ export default function Beranda() {
 
             <div className="flex flex-row border-y-2 border-black w-full items-center justify-between mt-6 px-6 py-5 bg-white">
                 <div className="w-40 h-40 text-center mb-8">
-                <img className="items-center" src="/src/image/kd.png" alt="image description" />
-                <button>
+                <img className="items-center ml-3" src="/src/image/kd.png" alt="image description" />
+                <button className="pt-1">
                     Kompetensi Dasar
                 </button>
                 </div>
 
                 <div className="w-40 h-40 text-center mb-10">
                 <img className="h-auto w-100 items-center" src="/src/image/indikator.png" alt="image description" />
-                <button>
-                    Indikator Pencapaian Pembelajaran
+                <button className="pt-1">
+                    Indikator Pencapaian Kompetensi
                 </button>
                 </div>
 
                 <div className="w-40 h-40 text-center mb-8">
-                <img className="h-auto w-100 items-center" src="/src/image/tujuan.png" alt="image description" />
-                <button>
-                    Tujuan Pembelajaran
+                <img className="h-auto w-100 items-center mr-3" src="/src/image/tujuan.png" alt="image description" />
+                <button className="pt-1">
+                    Kompetensi Inti
                 </button>
                 </div>
             </div>

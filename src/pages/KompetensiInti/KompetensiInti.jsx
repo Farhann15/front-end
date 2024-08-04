@@ -1,8 +1,8 @@
-export default function TujuanPembelajaran () {
+export default function KompetensiInti () {
     return(
         <div className="mt-3">
             <div className="text-2xl font-bold ml-3">
-            <p>TUJUAN PEMBELAJARAN</p>
+            <p>KOMPETENSI INTI</p>
             </div>
 
             <div className="flex flex-row border-y-2 border-black w-full items-center bg-white mt-3 ">
