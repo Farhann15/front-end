@@ -35,7 +35,7 @@ export default function Navbar() {
             <div className='flex flex-row gap-2 pb-1 items-center text-sm border-b-2 border-black'>
               <img
                 className="h-12 w-auto pl-2"
-                src="src/image/BEMARU2.png"
+                src='src/image/BEMARU2.png'
                 alt="Belajar Matematika Seru"
               />
               <div className='flex flex-col items-start'>

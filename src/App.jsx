@@ -4,23 +4,20 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Kuis from './pages/Kuis';
+import Kuis from './pages/Kuis/Kuis';
 import Navbar from './component/Navbar';
-import LatihanSoal from './pages/LatihanSoal';
+import LatihanSoal from './pages/Latihan/LatihanSoal';
 import Referensi from './pages/Referensi';
 import Bantuan from './pages/Bantuan';
-import ForumDiskusi from './pages/ForumDiskusi';
+import ForumDiskusi from './pages/ForumDiskusi/ForumDiskusi';
 import Background from '../src/image/background.png';
 import Indikator from './pages/IndikatorPencapaianKompetensi/Indikator';
 import Indikator1 from './pages/IndikatorPencapaianKompetensi/Indikator1';
 import Kompetensi1 from './pages/KompetensiDasar/Kompetensi1';
-import Materi5 from './pages/Materi5';
-import Materi6 from './pages/Materi6';
-import Materi7 from './pages/Materi7';
-import Materi8 from './pages/Materi8';
-import Materi9 from './pages/Materi9';
-import Latihansoal1 from './pages/Latihansoal1';
-import Kuis2 from './pages/Kuis2';
+import Materi8 from './pages/Materi/Materi8';
+import Materi9 from './pages/Materi/Materi9';
+import Latihansoal1 from './pages/Latihan/Latihansoal1';
+import Kuis2 from './pages/Kuis/Kuis2';
 import InputEssay from './pages/InputEssay/InputEssay';
 import InputPG from './pages/InputPG/InputPG';
 import InputKuis from './pages/InputKuis/InputKuis';
@@ -38,6 +35,19 @@ import Materi1 from './pages/Materi/Materi1';
 import Materi2 from './pages/Materi/Materi2';
 import Materi3 from './pages/Materi/Materi3';
 import Materi4 from './pages/Materi/Materi4';
+import Materi22 from './pages/Materi/Materi22';
+import Materi222 from './pages/Materi/Materi222';
+import PilihanGanda from './pages/Latihan/PilihanGanda';
+import JawabanPg from './pages/Latihan/JawabanPg';
+import Essay from './pages/Latihan/Essay';
+import JawabanEssay from './pages/Latihan/JawabanEssay';
+import Kuis3 from './pages/Kuis/Kuis3';
+import Materi7 from './pages/Materi/Materi7';
+import ForumDiskusi2 from './pages/ForumDiskusi/ForumDiskusi2';
+import ForumDiskusi3 from './pages/ForumDiskusi/ForumDiskusi3';
+import LoginAdmin from './pages/Login/LoginAdmin';
+import FileSoal from './pages/FileSoal';
+import HalamanAwal from './pages/Main/HalamanAwal';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -64,7 +74,7 @@ function App() {
       element: <LatihanSoal />,
     },
     {
-      path: "/pages/materi/materi",
+      path: "/materi",
       element: <Materi />,
     },
     {
@@ -72,7 +82,7 @@ function App() {
       element: <Materi11 />,
     },
     {
-      path: "/materi",
+      path: "/materi1",
       element: <Materi1 />,
     },
     {
@@ -136,16 +146,12 @@ function App() {
       element: <Materi4 />,
     },
     {
-      path: "/materi5",
-      element: <Materi5 />,
+      path: "/materi22",
+      element: <Materi22 />,
     },
     {
-      path: "/materi6",
-      element: <Materi6 />,
-    },
-    {
-      path: "/materi7",
-      element: <Materi7 />,
+      path: "/materi222",
+      element: <Materi222 />,
     },
     {
       path: "/materi8",
@@ -160,7 +166,7 @@ function App() {
       element: <Latihansoal1 />,
     },
     {
-      path: "/kuis2",
+      path: "/pages/kuis/kuis2",
       element: <Kuis2 />,
     },
     {
@@ -179,15 +185,56 @@ function App() {
       path: "/pages/inputMateri/input-materi",
       element: <InputMateri />,
     },
+    {
+      path: "/pages/latihan/pilihanganda",
+      element: <PilihanGanda />,
+    },
+    {
+      path: "/pages/latihan/jawabanpg",
+      element: <JawabanPg />,
+    },
+    {
+      path: "/pages/latihan/essay",
+      element: <Essay />,
+    },
+    {
+      path: "/pages/latihan/jawabanessay",
+      element: <JawabanEssay />,
+    },
+    {
+      path: "/pages/kuis/kuis3",
+      element: <Kuis3 />,
+    },
+    {
+      path: "/pages/materi/materi7",
+      element: <Materi7 />,
+    },
+    {
+      path: "/pages/forumdiskusi/forumdiskusi2",
+      element: <ForumDiskusi2 />,
+    },
+    {
+      path: "/pages/forumdiskusi/forumdiskusi3",
+      element: <ForumDiskusi3 />,
+    },
+    {
+      path: "/pages/login/loginadmin",
+      element: <LoginAdmin />,
+    },
+    {
+      path: "/pages/filesoal",
+      element: <FileSoal />,
+    },
+    {
+      path: "/pages/halamanawal",
+      element: <HalamanAwal />,
+    },
   ]);
 
   return (
-    <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
-      <Navbar />
       <RouterProvider
         router={router}
       />
-    </div>
   )
 }
 

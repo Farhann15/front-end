@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import Background from '../../image/newbackground.png'
+import Navbar from '../../component/Navbar';
 
 export default function InputEssay() {
     const [pertanyaan, setpertanyaan] = useState('');
     const [jawaban, setjawaban] = useState('');
 
     return (
+        <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
+            <Navbar />
         <div className="px-40">
             <div className="p-1 pl-2 pr-2 border-solid border-2 rounded-3xl bg-white border-black mt-3 ">
                 <div className="text-center text-2xl mb-3">
@@ -56,6 +60,6 @@ export default function InputEssay() {
             </div>
 
         </div>
-
+        </div>
     )
 }

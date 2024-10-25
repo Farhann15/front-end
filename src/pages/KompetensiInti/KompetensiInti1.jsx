@@ -1,5 +1,10 @@
+import Navbar from '../../component/Navbar';
+import Background from '../../image/newbackground.png'
+
 export default function KompetensiInti1 () {
     return(
+        <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
+            <Navbar />
         <div className="mt-3">
             <div className="text-2xl font-bold ml-3">
             <p>KOMPETENSI INTI</p>
@@ -12,6 +17,6 @@ export default function KompetensiInti1 () {
                 <p className="mt-3 ml-3 pb-3">4. Mengolah, menyaji dan menalar dalam ranah konkret (menggunakan, mengurai, merangkai, memodifikasi, dan membuat) dan ranah abstrak (menulis, membaca, menghitung, menggambar, dan mengarang) sesuai dengan yang dipelajari di sekolah dan sumber lain yang sama dalam sudut pandang/teori.</p>
             </div>
         </div>
-        
+        </div>      
     )
 }
