@@ -226,7 +226,7 @@ function App() {
       element: <FileSoal />,
     },
     {
-      path: "/pages/halamanawal",
+      path: "/",
       element: <HalamanAwal />,
     },
   ]);

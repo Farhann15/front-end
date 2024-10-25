@@ -7,7 +7,7 @@ export default function ForumDiskusi() {
         <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
             <Navbar />
 
-            <div class="flex flex-row justify-center">
+            <div className="flex flex-row justify-center">
                 <div className="ml-3">
                     <div class="">
                         <h1 className="text-2xl">Bemaru</h1>
