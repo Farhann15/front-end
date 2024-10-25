@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import search from '../../image/forum2.png'
+import user from '../../image/forum3.png'
+import comment from '../../image/forum4.png'
+import logoforumdiskusi from '../../image/forum1.png'
 
 export default function ForumDiskusi() {
     return (
@@ -19,14 +23,14 @@ export default function ForumDiskusi() {
                     <div className="rounded flex flex-row items-center justify-between border-black border bg-white h-[30px] w-[250px]">
                         <input className="border-y border-black rounded-l px-2 outline-none w-[200px] h-[30px]" type="text" placeholder="Cari soal serupa" name="search" />
                         <button className="pr-2" type="button">
-                            <img className="w-6 h-6" src="src/image/forum2.png" alt="" />
+                            <img className="w-6 h-6" src={search} alt="" />
                         </button>
                     </div>
 
                     <div className="mt-5 rounded flex flex-row items-center justify-between border-black border bg-white h-[30px] w-[250px]">
                         <input className="border-y border-black rounded-l px-2 outline-none w-[200px] h-[30px]" type="text" placeholder="Ajukan pertanyaan" name="search" />
                         <Link to={"/pages/forumdiskusi/forumdiskusi3"} className="pr-2" type="button">
-                            <img className="w-6 h-6" src="src/image/forum2.png" alt="" />
+                            <img className="w-6 h-6" src={search} alt="" />
                         </Link>
                     </div>
 
@@ -35,7 +39,7 @@ export default function ForumDiskusi() {
                     </div>
 
                     <div className='flex flex-row'>
-                        <img className="w-6 h-6" src="src/image/forum3.png" alt="" />
+                        <img className="w-6 h-6" src={user} alt="" />
                         <p className="ml-1">Muhammad Fahrizal</p>
                     </div>
 
@@ -44,7 +48,7 @@ export default function ForumDiskusi() {
 
                         <div className="flex justify-between">
                             <div className="flex flex-row items-center">
-                                <img className="w-6 h-6" src="src/image/forum4.png" alt="" />
+                                <img className="w-6 h-6" src={comment} alt="" />
                                 <p>2</p>
                             </div>
 
@@ -53,7 +57,7 @@ export default function ForumDiskusi() {
                     </div>
 
                     <div className='flex flex-row mt-3'>
-                        <img className="w-6 h-6" src="src/image/forum3.png" alt="" />
+                        <img className="w-6 h-6" src={user} alt="" />
                         <p className="ml-1">Adzrani Anggita</p>
                     </div>
 
@@ -62,7 +66,7 @@ export default function ForumDiskusi() {
 
                         <div className="flex justify-between">
                             <div className="flex flex-row items-center">
-                                <img className="w-6 h-6" src="src/image/forum4.png" alt="" />
+                                <img className="w-6 h-6" src={comment} alt="" />
                                 <p>2</p>
                             </div>
 
@@ -74,7 +78,7 @@ export default function ForumDiskusi() {
 
                 <div className=" mr-5">
                     <div className="space-x-2 object-right h-[380px] w-[458px]">
-                        <img className="object-none object-right" src="/src/image/forum1.PNG" alt="" />
+                        <img className="object-none object-right" src={logoforumdiskusi} alt="" />
                     </div>
 
                     <div className='flex flex-row mt-3'>

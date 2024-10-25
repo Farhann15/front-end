@@ -3,6 +3,8 @@ import 'react-quill/dist/quill.snow.css';
 import React, { useState } from 'react';
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import panahbawah from '../../image/forum6.png'
+import gambarpertanyaan from '../../image/forum7.png'
 
 export default function ForumDiskusi3() {
     const [pertanyaan, setpertanyaan] = useState('');
@@ -29,7 +31,7 @@ export default function ForumDiskusi3() {
                         <div className="mt-3 rounded flex flex-row items-center justify-between border-black border bg-white h-[29px] w-[223px]">
                             <input className="border-y border-black rounded-l px-2 outline-none w-[223px] h-[29px]" type="text" placeholder="Tingkat pendidikan" name="search" />
                             <button className="pr-2" type="button">
-                                <img className="w-[21px] h-[17" src="/src/image/forum6.png" alt="" />
+                                <img className="w-[21px] h-[17" src={panahbawah} alt="" />
                             </button>
                         </div>
                     </div>
@@ -39,7 +41,7 @@ export default function ForumDiskusi3() {
                     </div>
 
                     <div className="">
-                        <button className="h-[29px] w-[223px] mt-3 text-base font-semibold ml-3 p-1 pl-3 pr-3 border-solid border-2 rounded-xl bg-white border-black">
+                        <button className="h-[29px] w-[223px] mt-3 text-base font-semibold border-solid border-2 rounded-xl bg-white border-black">
                             Tambahkan pertanyaan
                         </button>
                     </div>
@@ -51,9 +53,9 @@ export default function ForumDiskusi3() {
 
                 </div>
 
-                <div className="ml-10 mt-3">
+                <div className="ml-10 mt-5">
                     <div className="space-x-2 h-[333px] w-[299px]">
-                        <img className="" src="/src/image/forum7.PNG" alt="" />
+                        <img className="" src={gambarpertanyaan} alt="" />
                     </div>
                 </div>
             </div>

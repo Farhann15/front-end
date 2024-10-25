@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import user from '../../image/forum3.png'
+import comment from '../../image/forum4.png'
+import bintang from '../../image/forum5.png'
 
 export default function ForumDiskusi2() {
     return (
@@ -10,7 +13,7 @@ export default function ForumDiskusi2() {
             <div className="flex flex-row justify-center">
                 <div className="ml-3 mt-3">
                     <div className='flex flex-row'>
-                        <img className="w-6 h-6" src="src/image/forum3.png" alt="" />
+                        <img className="w-6 h-6" src={user} alt="" />
                         <p className="ml-1">Muhammad Fahrizal</p>
                     </div>
 
@@ -19,7 +22,7 @@ export default function ForumDiskusi2() {
 
                         <div className="flex justify-between">
                             <div className="flex flex-row items-center">
-                                <img className="w-6 h-6" src="src/image/forum4.png" alt="" />
+                                <img className="w-6 h-6" src={comment} alt="" />
                                 <p className="text-sm">2</p>
                             </div>
 
@@ -34,7 +37,7 @@ export default function ForumDiskusi2() {
                     </div>
 
                     <div className='flex flex-row mt-3'>
-                        <img className="w-6 h-6" src="src/image/forum3.png" alt="" />
+                        <img className="w-6 h-6" src={user} alt="" />
                         <p className="ml-1">Mohammad Farhan Sofyan</p>
                     </div>
 
@@ -49,7 +52,7 @@ export default function ForumDiskusi2() {
 
                         <div className="flex justify-between">
                             <div className="flex flex-row items-center">
-                                <img className="w-6 h-6" src="src/image/forum4.png" alt="" />
+                                <img className="w-6 h-6" src={comment} alt="" />
                                 <p className="text-sm">2</p>
                             </div>
 
@@ -58,8 +61,8 @@ export default function ForumDiskusi2() {
                     </div>
 
                     <div className="flex flex-row">
-                        <img className="bg-red-400" src="src/image/forum5.png" alt="" />
-                        <p>Terima kasih</p>
+                        <p className="ml-3">Terima kasih</p>
+                        <img className="flex flex-row" src={bintang} alt="" />
                     </div>
 
                     <div className="flex flex-row h-[35px] w-[223px] mt-3">
