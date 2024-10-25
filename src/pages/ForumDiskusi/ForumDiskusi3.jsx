@@ -11,9 +11,9 @@ export default function ForumDiskusi3() {
         <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='h-screen w-screen relative overflow-y-auto'>
             <Navbar />
 
-            <div class="flex flex-row justify-center">
+            <div className="flex flex-row justify-center">
                 <div className="mt-3">
-                    <div class="">
+                    <div className="">
                         <h1 className="text-xl">Ajukan pertanyaan</h1>
                     </div>
 
@@ -52,7 +52,7 @@ export default function ForumDiskusi3() {
                 </div>
 
                 <div className="ml-10 mt-3">
-                    <div class="space-x-2 h-[333px] w-[299px]">
+                    <div className="space-x-2 h-[333px] w-[299px]">
                         <img className="" src="/src/image/forum7.PNG" alt="" />
                     </div>
                 </div>

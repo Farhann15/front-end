@@ -11,6 +11,7 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Home from '../image/home.png'
 import { Link } from 'react-router-dom'
+import logobemaru from '../image/BEMARU2.png'
 
 const navigation = [
   { name: 'Beranda', href: '/beranda', current: false },
@@ -35,7 +36,7 @@ export default function Navbar() {
             <div className='flex flex-row gap-2 pb-1 items-center text-sm border-b-2 border-black'>
               <img
                 className="h-12 w-auto pl-2"
-                src='src/image/BEMARU2.png'
+                src={logobemaru}
                 alt="Belajar Matematika Seru"
               />
               <div className='flex flex-col items-start'>

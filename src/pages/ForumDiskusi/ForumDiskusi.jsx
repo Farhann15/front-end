@@ -9,7 +9,7 @@ export default function ForumDiskusi() {
 
             <div className="flex flex-row justify-center">
                 <div className="ml-3">
-                    <div class="">
+                    <div className="">
                         <h1 className="text-2xl">Bemaru</h1>
                         <p className="font-semibold">Forum Diskusi merupakan sebuah tempat dimana kita bisa </p>
                         <p className="font-semibold">belajar bersama untuk membahas dan menyelesaikan Soal</p>
@@ -73,7 +73,7 @@ export default function ForumDiskusi() {
                 </div>
 
                 <div className=" mr-5">
-                    <div class="space-x-2 object-right h-[380px] w-[458px]">
+                    <div className="space-x-2 object-right h-[380px] w-[458px]">
                         <img className="object-none object-right" src="/src/image/forum1.PNG" alt="" />
                     </div>
 
