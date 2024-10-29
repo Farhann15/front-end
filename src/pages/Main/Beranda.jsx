@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../component/Navbar';
 import Background from '../../image/newbackground.png'
+import kd from '../../image/kd.png'
+import ipk from '../../image/indikator.png'
+import tujuan from '../../image/tujuan.png'
 
 export default function Beranda() {
     
@@ -18,21 +21,21 @@ export default function Beranda() {
 
                 <div className="flex flex-row border-y-2 border-black w-full items-center justify-between mt-6 px-6 py-5 bg-white">
                     <Link to={"/pages/kompetensidasar/kd1,5"} className="w-40 h-40 text-center mb-8">
-                        <img className="items-center ml-3" src="/src/image/kd.png" alt="image description" />
+                        <img className="items-center ml-3" src={kd} alt="image description" />
                         <button className="pt-1">
                             Kompetensi Dasar
                         </button>
                     </Link>
 
                     <Link to={"/pages/indikatorpencapaiankompetensi/ipk1,5"} className="w-40 h-40 text-center mb-10">
-                        <img className="h-auto w-100 items-center" src="/src/image/indikator.png" alt="image description" />
+                        <img className="h-auto w-100 items-center" src={ipk} alt="image description" />
                         <button className="pt-1">
                             Indikator Pencapaian Kompetensi
                         </button>
                     </Link>
 
                     <Link to={"/pages/kompetensiinti/ki1,5"} className="w-40 h-40 text-center mb-8">
-                        <img className="h-auto w-100 items-center mr-3" src="/src/image/tujuan.png" alt="image description" />
+                        <img className="h-auto w-100 items-center mr-3" src={tujuan} alt="image description" />
                         <button className="pt-1">
                             Kompetensi Inti
                         </button>
