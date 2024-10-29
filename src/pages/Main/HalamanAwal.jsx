@@ -3,6 +3,10 @@ import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
 import logobemaru from '../../image/BEMARU2.png'
 import fototengah from '../../image/HA1.png'
+import planet from '../../image/ha2.png'
+import roket from '../../image/ha3.png'
+import diagram from '../../image/ha4.png'
+import pesan from '../../image/ha5.png'
 
 export default function HalamanAwal() {
     return (
@@ -52,27 +56,27 @@ export default function HalamanAwal() {
                 <div className="flex flex-row w-full items-center justify-center mt-6 px-6 py-5 ">
                     <div className="text-center">
                         <div className="w-[136px] h-[114px] mr-16">
-                            <img src="/src/image/ha2.png" alt="" />
+                            <img src={planet} alt="" />
                             <p>Membantu memahami materi Matematika yang belum dimengerti</p>
                         </div>
                     </div>
 
                     <div className="text-center">
                         <div className="w-[136px] h-[114px] ml-5 mr-16">
-                            <img src="/src/image/ha3.png" alt="" />
+                            <img src={roket} alt="" />
                             <p>Berisi Materi, Contoh, Latihan, dan Kuis untuk memfaslisitasi Belajar siswa</p>
                         </div>
                     </div>
 
                     <div className="text-center">
                         <div className="w-[136px] h-[114px] ml-5 mr-16">
-                            <img src="/src/image/ha4.png" alt="" />
+                            <img src={diagram} alt="" />
                             <p>Gratis dan tidak berbayar</p>
                         </div>
                     </div>
                     <div className="text-center">
                         <div className="w-[136px] h-[114px] ml-16">
-                            <img src="/src/image/ha5.png" alt="" />
+                            <img src={pesan} alt="" />
                             <p>Lengkap dengan panduan pemakaian, dan pusat bantuan yang selalu sedia</p>
                         </div>
                     </div>
