@@ -39,7 +39,7 @@ export default function Materi4() {
 
                                 <div className='flex flex-row space-x-3 justify-center'>
                                     <div className="max-w-lg">
-                                        <img className="h-auto max-w-full mb-3 rounded-lg" src="/src/image/image1(materi4)n.PNG" alt="" />
+                                        <img className="h-auto max-w-full mb-3 rounded-lg" src={"/src/image/image1(materi4)n.PNG"} alt="" />
                                     </div>
                                 </div>
 
