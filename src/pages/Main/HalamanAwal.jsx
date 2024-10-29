@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
 import logobemaru from '../../image/BEMARU2.png'
+import fototengah from '../../image/HA1.png'
 
 export default function HalamanAwal() {
     return (
@@ -36,7 +37,7 @@ export default function HalamanAwal() {
 
                 <div className="ml-16">
                     <div className="w-[501px] h-[507px]">
-                        <img src="/src/image/HA1.png" alt="" />
+                        <img src={fototengah} alt="" />
                     </div>
                 </div>
             </div>
