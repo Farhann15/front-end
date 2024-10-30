@@ -1,5 +1,16 @@
 import Navbar from '../../component/Navbar';
 import Background from '../../image/newbackground.png'
+import gambar1 from '../../image/gambar4ke1.png'
+import gambar2 from '../../image/gambar4ke2.png'
+import gambar3 from '../../image/gambar4ke3.png'
+import gambar4 from '../../image/gambar4ke4.png'
+import gambar5 from '../../image/gambar4ke5.png'
+import gambar6 from '../../image/gambar4ke6.png'
+import gambar7 from '../../image/gambar4ke7.png'
+import gambar8 from '../../image/gambar4ke8.png'
+import gambar9 from '../../image/gambar4ke9.png'
+import gambar10 from '../../image/gambar4ke10.png'
+import gambar11 from '../../image/gambar4ke11.png'
 
 export default function Materi4() {
     const angka = "{..., (0, 3), (1, 2), (2, 1), ...}"
@@ -39,7 +50,7 @@ export default function Materi4() {
 
                                 <div className='flex flex-row space-x-3 justify-center'>
                                     <div className="max-w-lg">
-                                        <img className="h-auto max-w-full mb-3 rounded-lg" src={"/src/image/image1(materi4)n.PNG"} alt="" />
+                                        <img className="h-auto max-w-full mb-3 rounded-lg" src={gambar1} alt="" />
                                     </div>
                                 </div>
 
@@ -50,7 +61,7 @@ export default function Materi4() {
 
                                 <div className='flex flex-row space-x-3 justify-center'>
                                     <div className="max-w-lg">
-                                        <img className="h-auto max-w-full mb-3 rounded-lg" src="/src/image/image1,5(materi4)nn.PNG" alt="" />
+                                        <img className="h-auto max-w-full mb-3 rounded-lg" src={gambar2} alt="" />
                                     </div>
                                 </div>
 
@@ -143,7 +154,7 @@ export default function Materi4() {
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className="max-w-lg mt-3">
-                                <img className="h-auto max-w-full mb-3 rounded-lg" src="/src/image/image2(materi4)n.PNG" alt="" />
+                                <img className="h-auto max-w-full mb-3 rounded-lg" src={gambar3} alt="" />
                             </div>
                         </div>
 
@@ -153,9 +164,9 @@ export default function Materi4() {
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className="max-w-lg mt-3">
-                                <img className="h-auto max-w-full mb-3 rounded-lg" src="/src/image/image2,5(materi4)n.PNG" alt="" />
+                                <img className="h-auto max-w-full mb-3 rounded-lg" src={gambar4} alt="" />
                                 <p className='text-center'>atau</p>
-                                <img className="mt-3 h-auto max-w-full mb-3 rounded-lg" src="/src/image/image3,5(materi4).PNG" alt="" />
+                                <img className="mt-3 h-auto max-w-full mb-3 rounded-lg" src={gambar5} alt="" />
                             </div>
                         </div>
 
@@ -314,7 +325,7 @@ export default function Materi4() {
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className="mt-3 mb-3">
-                                <img src="/src/image/image3(materi4)n.PNG" alt="" />
+                                <img src={gambar6} alt="" />
                             </div>
                         </div>
                         <div>
@@ -336,7 +347,7 @@ export default function Materi4() {
                         <div>
                             <p>Sehingga didapatkan grafik dan himpunan penyelesaiannya</p></div>
                         <div className='flex flex-row space-x-3 justify-center'>
-                            <img className='mt-3 mb-3' src="/src/image/image4,5(materi4).PNG" alt="" />
+                            <img className='mt-3 mb-3' src={gambar7} alt="" />
                         </div>
                         <p className='font-semibold'>Jadi, himpunan penyelesaian persamaan x + y = 3 adalah {angka}</p>
                     </div>
@@ -387,13 +398,13 @@ export default function Materi4() {
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className='ml-3 mt-3 mb-3'>
-                                <img src="/src/image/image4(materi4)n.png" alt="" />
+                                <img src={gambar8} alt="" />
                             </div>
                         </div>
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className='ml-3 mt-3 mb-3'>
-                                <img src="/src/image/image5(materi4)n.png" alt="" />
+                                <img src={gambar9} alt="" />
                             </div>
                         </div>
                     </div>
@@ -436,7 +447,7 @@ export default function Materi4() {
 
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className='ml-3 mt-3'>
-                                <img src="/src/image/image6(materi4).png" alt="" />
+                                <img src={gambar10} alt="" />
                             </div>
                         </div>
 
@@ -459,7 +470,7 @@ export default function Materi4() {
                     <div className="mt-1 text-justify ml-3 font-normal p-1 pl-3 pr-3 border-solid border-2 rounded-2xl bg-white border-black">
                         <div className='flex flex-row space-x-3 justify-center'>
                             <div className='ml-3 mt-3 mb-3'>
-                                <img src="/src/image/image7(materi4)n.png" alt="" />
+                                <img src={gambar11} alt="" />
                             </div>
                         </div>
 

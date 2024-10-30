@@ -89,9 +89,9 @@ export default function HalamanAwal() {
             <br />
             <br />
             <div className="flex flex-row justify-center">
-                <button className="justify-center mt-3 text-base font-bold ml-3 p-1 pl-3 pr-3 border-solid border-2 rounded-xl bg-blue-300 border-black">
+                <Link to={"/pages/login"} className="justify-center mt-3 text-base font-bold ml-3 p-1 pl-3 pr-3 border-solid border-2 rounded-xl bg-blue-300 border-black">
                     Masuk
-                </button>
+                </Link>
             </div>
             
             <div className="flex flex-row justify-center mb-5 mt-1">

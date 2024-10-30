@@ -48,6 +48,7 @@ import ForumDiskusi3 from './pages/ForumDiskusi/ForumDiskusi3';
 import LoginAdmin from './pages/Login/LoginAdmin';
 import FileSoal from './pages/FileSoal';
 import HalamanAwal from './pages/Main/HalamanAwal';
+import LoginBiasa from './pages/Login/LoginBiasa';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -228,6 +229,10 @@ function App() {
     {
       path: "/",
       element: <HalamanAwal />,
+    },
+    {
+      path: "/pages/login",
+      element: <LoginBiasa />,
     },
   ]);
 
