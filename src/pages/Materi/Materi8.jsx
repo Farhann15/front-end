@@ -1,5 +1,17 @@
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import materi8ke1 from '../../image/materi8ke1.png'
+import materi8ke2 from '../../image/materi8ke2.png'
+import materi8ke3 from '../../image/materi8ke3.png'
+import materi8ke4 from '../../image/materi8ke4.png'
+import materi8ke5 from '../../image/materi8ke5.png'
+import materi8ke6 from '../../image/materi8ke6.png'
+import materi8ke7 from '../../image/materi8ke7.png'
+import materi8ke8 from '../../image/materi8ke8.png'
+import materi8ke9 from '../../image/materi8ke9.png'
+import materi8ke10 from '../../image/materi8ke10.png'
+import materi8ke11 from '../../image/materi8ke11.png'
+import materi8ke12 from '../../image/materi8ke12.png'
 
 export default function Materi8() {
     return (
@@ -45,7 +57,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="mt-2 justify-center">
-                                <img src="/src/image/materi8(1).png" alt="" />
+                                <img src={materi8ke1} alt="" />
                             </div>
 
                             <div className="">
@@ -91,7 +103,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="mt-2">
-                                <img src="/src/image/materi8(2).png" alt="" />
+                                <img src={materi8ke2} alt="" />
                                 <p>Jadi, didapatkan nilai x = 1</p>
                             </div>
 
@@ -120,7 +132,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="mt-2">
-                                <img src="/src/image/materi8(3).png" alt="" />
+                                <img src={materi8ke3} alt="" />
                                 <p>Jadi, didapatkan nilai y = 0</p>
                             </div>
                         </div>
@@ -143,7 +155,7 @@ export default function Materi8() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi8(4).png" alt="" />
+                                <img src={materi8ke4} alt="" />
                             </div>
                         </div>
                     </div>
@@ -165,7 +177,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="">
-                                <img src="/src/image/materi8(5).png" alt="" />
+                                <img src={materi8ke5} alt="" />
                             </div>
 
                             <div>
@@ -177,7 +189,7 @@ export default function Materi8() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi8(5).png" alt="" />
+                                <img src={materi8ke6} alt="" />
                             </div>
 
                             <div>
@@ -204,7 +216,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="">
-                                <img src="/src/image/materi8(7).png" alt="" />
+                                <img src={materi8ke7} alt="" />
                             </div>
                         </div>
                     </div>
@@ -246,7 +258,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="mt-2">
-                                <img src="/src/image/materi8(8).png" alt="" />
+                                <img src={materi8ke8} alt="" />
                                 <p>Jadi, hasil dari proses eliminasi di atas didapatkan y = 2</p>
                             </div>
 
@@ -255,7 +267,7 @@ export default function Materi8() {
                             </div>
 
                             <div className="mt-2">
-                                <img src="/src/image/materi8(9).png" alt="" />
+                                <img src={materi8ke9} alt="" />
                             </div>
 
                             <div>
@@ -282,8 +294,8 @@ export default function Materi8() {
                             </div>
 
                             <div className="flex flex-row">
-                                <img src="/src/image/materi8(10).png" alt="" />
-                                <img src="/src/image/materi8(11).png" alt="" />
+                                <img src={materi8ke10} alt="" />
+                                <img src={materi8ke11} alt="" />
                             </div>
                         </div>
                     </div>
@@ -335,7 +347,7 @@ export default function Materi8() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi8(12).png" alt="" />
+                                <img src={materi8ke12} alt="" />
                             </div>
 
                             <div>

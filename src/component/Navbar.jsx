@@ -108,9 +108,9 @@ export default function Navbar() {
       </div>
       <div className="border-y-2 border-black mt-3">
         <div className="flex items-center space-x-2 pl-6">
-          <div>
+          <Link to={"/"}>
             <img src={Home} alt="" className='w-6 h-6'/>
-          </div>
+          </Link>
           {navigation.map((item) => (
             <Link
               key={item.name}

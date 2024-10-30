@@ -1,5 +1,11 @@
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import materi7ke1 from '../../image/materi7ke1.png'
+import materi7ke2 from '../../image/materi7ke2.png'
+import materi7ke3 from '../../image/materi7ke3.png'
+import materi7ke4 from '../../image/materi7ke4.png'
+import materi7ke5 from '../../image/materi7ke5.png'
+import materi7ke6 from '../../image/materi7ke6.png'
 
 export default function Materi7() {
     return (
@@ -28,7 +34,7 @@ export default function Materi7() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi7(1).PNG" alt="" />
+                                <img src={materi7ke1} alt="" />
                             </div>
 
                             <div>Dari persamaan 2x + y = 4, dapat ditentukan  nilai x dengan mengganti (menyubstitusi) bentuk persamaan y seperti berikut.
@@ -91,7 +97,7 @@ export default function Materi7() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi7(2).png" alt="" />
+                                <img src={materi7ke2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -119,12 +125,12 @@ export default function Materi7() {
                                 <p>3x + 4 = 3</p>
                                 <p>3x = 3 - 4</p>
                                 <p>3x = -1</p>
-                                <img src="/src/image/materi7(3).png" alt="" />
+                                <img src={materi7ke3} alt="" />
                             </div>
 
                             <div className="mt-3">
                                 <p>Nilai x= -1/3 disubstitusikan ke persamaan 1</p>
-                                <img src="/src/image/materi7(4).png" alt="" />
+                                <img src={materi7ke4} alt="" />
                             </div>
 
                             <div>
@@ -150,7 +156,7 @@ export default function Materi7() {
                             </div>
 
                             <div className="">
-                                <img src="/src/image/materi7(5).png" alt="" />
+                                <img src={materi7ke5} alt="" />
                             </div>
 
                             <div>
@@ -188,7 +194,7 @@ export default function Materi7() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi7(6).png" alt="" />
+                                <img src={materi7ke6} alt="" />
                             </div>
 
                             <div className="mt-3">

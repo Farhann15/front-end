@@ -1,5 +1,14 @@
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
+import materi222ke1 from '../../image/materi222ke1.png'
 
 export default function Materi222() {
     return (
@@ -27,7 +36,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="flex flex-row space-x-3 justify-center">
-                                <img src="src/image/image1(materi222)n.jpg" alt="" />
+                                <img src={materi222ke1} alt="" />
                             </div>
 
                             <div>Ayo kita bantu Dede dan Angga untuk mengetahui berapa harga yang harus dibayar oleh masing-masing dari mereka dengan mengikuti materi ini dengan baik.
@@ -55,7 +64,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="flex flex-row space-x-3 justify-center">
-                                <img src="/src/image/image2(materi222)n.png" alt="" />
+                                <img src={materi222ke2} alt="" />
                             </div>
 
                             <div className="mt-3">
@@ -63,7 +72,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="flex flex-row space-x-3 justify-center">
-                                <img src="/src/image/image3(materi222)n.png" alt="" />
+                                <img src={materi222ke3} alt="" />
                             </div>
 
                             <div>
@@ -87,7 +96,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="flex flex-row space-x-3 justify-center">
-                                <img src="/src/image/image4(materi222)n.png" alt="" />
+                                <img src={materi222ke4} alt="" />
                             </div>
 
                             <div className="mt-3">
@@ -99,7 +108,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="flex flex-row space-x-3 justify-center">
-                                <img src="/src/image/image5(materi222)n.png" alt="" />
+                                <img src={materi222ke5} alt="" />
                             </div>
 
                             <div className="">
@@ -124,7 +133,7 @@ export default function Materi222() {
                         <div className="mt-3 ml-3 mb-3">
                             <div className="">
                                 <p>Berikut diberikan sebuah persamaan.</p>
-                                <img src="/src/image/image6(materi222).png" alt="" />
+                                <img src={materi222ke6} alt="" />
                             </div>
 
                             <div>
@@ -169,7 +178,7 @@ export default function Materi222() {
                             </div>
 
                             <div className="">
-                                <img src="/src/image/image7(materi222).png" alt="" />
+                                <img src={materi222ke7} alt="" />
                             </div>
                         </div>
                     </div>
@@ -220,7 +229,7 @@ export default function Materi222() {
                             </div>
 
                             <div>
-                                <img src="/src/image/image8(materi222)n.png" alt="" />
+                                <img src={materi222ke8} alt="" />
                             </div>
 
                             <div>
@@ -323,7 +332,7 @@ export default function Materi222() {
                             </div>
 
                             <div>
-                                <img src="/src/image/image8,5(materi222)n.png" alt="" />
+                                <img src={materi222ke9} alt="" />
                             </div>
 
                             <div>
@@ -442,7 +451,7 @@ export default function Materi222() {
                             </div>
 
                             <div>
-                                <img src="/src/image/image9(materi222)n.png" alt="" />
+                                <img src={materi222ke10} alt="" />
                             </div>
 
                             <div>

@@ -1,5 +1,14 @@
 import Navbar from "../../component/Navbar";
 import Background from '../../image/newbackground.png'
+import materi9ke1 from '../../image/materi9ke1.png'
+import materi9ke2 from '../../image/materi9ke2.png'
+import materi9ke3 from '../../image/materi9ke3.png'
+import materi9ke4 from '../../image/materi9ke4.png'
+import materi9ke5 from '../../image/materi9ke5.png'
+import materi9ke6 from '../../image/materi9ke6.png'
+import materi9ke7 from '../../image/materi9ke7.png'
+import materi9ke8 from '../../image/materi9ke8.png'
+import materi9ke9 from '../../image/materi9ke9.png'
 
 export default function Materi9() {
     return (
@@ -32,7 +41,7 @@ export default function Materi9() {
                     <div className="mt-5 text-justify ml-3 font-normal p-1 pl-3 pr-3 border-solid border-2 rounded-2xl bg-white border-black">
                         <div className="mt-3 ml-3 mb-3">
                             <div className="flex justify-center">
-                                <img src="/src/image/materi9(1)n.png" alt="" />
+                                <img src={materi9ke1} alt="" />
                             </div>
 
                             <div>
@@ -47,7 +56,7 @@ export default function Materi9() {
                             </div>
 
                             <div className="flex justify-center mt-3">
-                                <img src="/src/image/materi9(2).png" alt="" />
+                                <img src={materi9ke2} alt="" />
                             </div>
 
                             <div>
@@ -60,7 +69,7 @@ export default function Materi9() {
                             </div>
 
                             <div className="flex justify-center mt-3">
-                                <img src="src/image/materi9(3).png" alt="" />
+                                <img src={materi9ke3} alt="" />
                             </div>
                         </div>
                     </div>
@@ -82,7 +91,7 @@ export default function Materi9() {
                             </div>
 
                             <div>
-                                <img src="/src/image/materi9(4).png" alt="" />
+                                <img src={materi9ke4} alt="" />
                             </div>
                         </div>
                     </div>
@@ -109,7 +118,7 @@ export default function Materi9() {
                             </div>
 
                             <div className="mt-3 flex justify-center">
-                                <img src="/src/image/materi9(5).png" alt="" />
+                                <img src={materi9ke5} alt="" />
                             </div>
 
                             <div>
@@ -156,8 +165,8 @@ export default function Materi9() {
                             </div>
 
                             <div className="flex flex-row">
-                                <img src="/src/image/materi9(6).png" alt="" />
-                                <img className="ml-20" src="/src/image/materi9(7).png" alt="" />
+                                <img src={materi9ke6} alt="" />
+                                <img className={materi9ke7} alt="" />
                             </div>
                         </div>
                     </div>
@@ -199,7 +208,7 @@ export default function Materi9() {
                             </div>
 
                             <div className="mt-3 flex justify-center">
-                                <img src="/src/image/materi9(8).png" alt="" />
+                                <img src={materi9ke8} alt="" />
                             </div>
 
                             <div>
@@ -213,7 +222,7 @@ export default function Materi9() {
                             </div>
 
                             <div className="mt-3">
-                                <img src="/src/image/materi9(9).png" alt="" />
+                                <img src={materi9ke9} alt="" />
                             </div>
 
                             <div className="mt-3">
